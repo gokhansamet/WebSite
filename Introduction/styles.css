@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    color: #40514E;
+    font-weight: bold;
+}
+h1{
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    color: #66BFBF;
+    line-height: 2;
+}
+h2{
+    font-size: 2.50rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #66BFBF;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+h3{
+    color: #11999E;
+}
+a{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 20px;
+    text-decoration: none;
+}
+a:hover
+{
+    color: #EAF6F6;
+}
+.copyright
+{
+    color:#EAF6F6;
+    font-size: 0.75rem;
+    padding: 10px 0;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 2;
+}
+hr{
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+.top-container
+{
+    background-color:#E4F9F5;
+    position: relative;
+    padding-top: 100px;
+}
+.top-cloud{
+    position: absolute;
+    right: 400px;
+    top: 40px;
+}
+.middle-container
+{
+    margin:100px 0;
+}
+.bottom-container
+{
+    background-color: #66BFBF;
+    padding: 40px 0 20px 0;
+}
+.bottom-cloud{
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+.profile-photo
+{
+    width: 300px;
+    height: 300px;
+    border-radius: 300px;
+}
+.skill-row
+{
+    width: 50%;
+    margin: 100px auto ;
+    text-align: left;
+}
+.skills-photo
+{
+    width: 25%;
+    float: left;
+    border-radius: 120px;
+    margin-right: 30px;
+}
+.second-skills-photo
+{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+.intro
+{
+    width: 30%;
+    margin: auto;
+}
+.btn {
+    margin: 50px auto;
+	background:#11ccd4;
+	background-color:#599bb3;
+	border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+    font-family: 'Montserrat', sans-serif;
+	font-size:26px;
+	padding:12px 37px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.btn:hover {
+	background:#30e3cb;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+        
