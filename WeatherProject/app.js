@@ -12,7 +12,9 @@ app.get("/", function (req, res) {
 app.post("/", function (req, res) {
   const query = req.body.cityName;
   const id = query;
-  const apiKey = "466d7a8d379152c16fdeaf58036bcacd";
+  // This key is fake it is used to represent key
+  // You have to get key from https://api.openweathermap.org
+  const apiKey = "123abc";
   const unit = "metric";
   const url =
     "https://api.openweathermap.org/data/2.5/weather?q=" +
